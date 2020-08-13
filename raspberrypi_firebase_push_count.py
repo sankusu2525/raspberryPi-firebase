@@ -37,7 +37,6 @@ cred = credentials.Certificate("service-account-file.json")
 
 firebase_admin.initialize_app(cred,{
     'databaseURL': "https://m5data-XXXXXX.firebaseio.com"
-
 })
 
 users_ref = db.reference('/M5Stack')

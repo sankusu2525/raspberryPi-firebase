@@ -49,3 +49,5 @@ except KeyboardInterrupt:
     print("break")
     GPIO.cleanup()
     GPIO.remove_event_detect(GPIO_SW)
+                    
+#参考にした(○パクリ)サイト:https://qiita.com/sai-san/items/24dbee74c5744033c330
